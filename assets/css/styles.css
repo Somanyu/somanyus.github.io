@@ -1,0 +1,25 @@
+ /* Hide scrollbar for Chrome, Safari and Opera */
+ html::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  html {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  } 
+
+  /*
+  * Social Buttons (on hover)
+  */
+  #linkedin-button:hover {
+      color: #0e76a8;
+  }
+
+  #twitter-button:hover {
+    color: #00acee;
+}
+
+  #insta-button:hover {
+    color: #bc2a8d;
+}
