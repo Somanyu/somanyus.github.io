@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" style="background: #000000">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180671752-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-180671752-1');
+    </script>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -29,7 +38,7 @@
 
   <body style="color: #000000">
     <nav
-      class="navbar navbar-light navbar-expand-md"
+      class="fade-in navbar navbar-light navbar-expand-md"
       style="
         transform: rotate(90deg);
         transform-origin: left;
@@ -94,13 +103,13 @@
               "
             >
               <img
-                class="rounded-circle img-fluid"
+                class="fade-in-image rounded-circle img-fluid"
                 src="assets/img/2021-04-10%2010.21.05%201%20(2).jpg"
                 width="200px"
                 height="200px"
               />
               <h3
-                class="name"
+                class="swing-in-top-fwd name"
                 style="
                   font-size: 4rem;
                   color: #ffffff;
@@ -110,18 +119,18 @@
                 Hi there, I am Somanyu
               </h3>
               <p
-                class="title"
+                class="fade-in title"
                 style="color: #086dd2; font-family: Amaranth, sans-serif"
               >
-                DEVelop&nbsp; design&nbsp;&nbsp;
+                Develop&nbsp; design&nbsp;&nbsp;
               </p>
-              <p class="description" style="font-family: Rubik, sans-serif">
+              <p class="fade-in description" style="font-family: Rubik, sans-serif">
                 Aenean tortor est, vulputate quis leo in, vehicula rhoncus
                 lacus. Praesent aliquam in tellus eu gravida. Aliquam varius
                 finibus est, et interdum justo suscipit id. Etiam dictum feugiat
                 tellus, a semper massa.
               </p>
-              <div class="social">
+              <div class="fade-in social">
                 <a href="#"
                   ><i id="linkedin-button" class="fab fa-linkedin-in"></i></a
                 ><a href="#"
@@ -133,10 +142,97 @@
             </div>
           </div>
         </div>
-      </div>
-      <span style="font-family: Questrial, sans-serif; color: #086dd5"
+      <div class="d-none d-lg-block fade-in-work worklin-div d-xl-flex justify-content-xl-center">
+        <a class="d-none d-lg-block fade-in-work worklin-div d-xl-flex justify-content-xl-center" href="#mywork">
+        <span class="worklink" style="font-family: Questrial, sans-serif; color: #086dd5"
         >my works&nbsp;<i class="fas fa-arrow-down"></i
-      ></span>
+      ></span></a></div>
+    </section>
+
+    <!-- WORKS-->
+    <nav class="navbar navbar-light navbar-expand-md" style="transform: rotate(90deg);transform-origin: left;background: rgba(255,0,0,0);position: absolute;margin-top: -47px;margin-left: 81px;padding-top: 5px;padding-bottom: 5px;">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navcol-2">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active text-uppercase" href="#" style="color: #4159791a;font-family: Amaranth, sans-serif;font-size: 220px;">My works</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="mywork" style="margin-top: 10rem;">
+        <section class="team-grid" style="background: #000000;">
+            <div class="container">
+                <div class="intro" style="margin-bottom: 32px;">
+                    <h2 class="text-center" style="font-family: Questrial, sans-serif;color: rgb(255,255,255);font-size: 4rem;">My Works</h2>
+                    <p class="text-center" style="font-family: Rubik, sans-serif;margin-bottom: 5px;font-size: 17px;">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet.  </p>
+                </div>
+                <div class="row people">
+                    <div class="col-md-4 col-lg-3 item">
+                        <div class="box" style="background: url('./assets/img/weather.jpg') center / cover;">
+                            <div class="cover" style="background: #171819c0;">
+                                <h3 class="text-uppercase name" style="color: #ffffff;font-family: Questrial, sans-serif;">Weather App</h3>
+                                <p class="text-capitalize title" style="color: #f0e8e8;font-family: Rubik, sans-serif;font-size: 11px;">HTML CSS JS</p>
+                                <div class="social"><a href="#"><i class="fa fa-globe"></i></a><a href="#"><i class="fa fa-github"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3 item">
+                        <div class="box" style="background: url('./assets/img/calculator.jpg') center / cover no-repeat;">
+                            <div class="cover" style="background: #171819c0;">
+                                <h3 class="text-uppercase name" style="color: #ffffff;font-family: Questrial, sans-serif;">Weather App</h3>
+                                <p class="text-capitalize title" style="color: #f0e8e8;font-family: Rubik, sans-serif;font-size: 11px;">HTML CSS JS</p>
+                                <div class="social"><a href="#"><i class="fa fa-globe"></i></a><a href="#"><i class="fa fa-github"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3 item">
+                        <div class="box" style="background: url('./assets/img/chat.jpg') center / cover no-repeat;">
+                            <div class="cover" style="background: #171819c0;">
+                                <h3 class="text-uppercase name" style="color: #ffffff;font-family: Questrial, sans-serif;">Weather App</h3>
+                                <p class="text-capitalize title" style="color: #f0e8e8;font-family: Rubik, sans-serif;font-size: 11px;">HTML CSS JS</p>
+                                <div class="social"><a href="#"><i class="fa fa-globe"></i></a><a href="#"><i class="fa fa-github"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3 item">
+                        <div class="box" style="background: url('./assets/img/score.jpg') center / cover no-repeat;">
+                            <div class="cover" style="background: #171819c0;">
+                                <h3 class="text-uppercase name" style="color: #ffffff;font-family: Questrial, sans-serif;">Weather App</h3>
+                                <p class="text-capitalize title" style="color: #f0e8e8;font-family: Rubik, sans-serif;font-size: 11px;">HTML CSS JS</p>
+                                <div class="social"><a href="#"><i class="fa fa-globe"></i></a><a href="#"><i class="fa fa-github"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3 item">
+                        <div class="box" style="background: url('./assets/img/banking.jpg') center / cover no-repeat;">
+                            <div class="cover" style="background: #171819c0;">
+                                <h3 class="text-uppercase name" style="color: #ffffff;font-family: Questrial, sans-serif;">Weather App</h3>
+                                <p class="text-capitalize title" style="color: #f0e8e8;font-family: Rubik, sans-serif;font-size: 11px;">HTML CSS JS</p>
+                                <div class="social"><a href="#"><i class="fa fa-globe"></i></a><a href="#"><i class="fa fa-github"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3 item">
+                        <div class="box" style="background: url('./assets/img/donation.jpg') center / cover no-repeat;">
+                            <div class="cover" style="background: #171819c0;">
+                                <h3 class="text-uppercase name" style="color: #ffffff;font-family: Questrial, sans-serif;">Weather App</h3>
+                                <p class="text-capitalize title" style="color: #f0e8e8;font-family: Rubik, sans-serif;font-size: 11px;">HTML CSS JS</p>
+                                <div class="social"><a href="#"><i class="fa fa-globe"></i></a><a href="#"><i class="fa fa-github"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-3 item">
+                        <div class="box" style="background: url('./assets/img/shoe.jpg') center / cover no-repeat;">
+                            <div class="cover" style="background: #171819c0;">
+                                <h3 class="text-uppercase name" style="color: #ffffff;font-family: Questrial, sans-serif;">Weather App</h3>
+                                <p class="text-capitalize title" style="color: #f0e8e8;font-family: Rubik, sans-serif;font-size: 11px;">HTML CSS JS</p>
+                                <div class="social"><a href="#"><i class="fa fa-globe"></i></a><a href="#"><i class="fa fa-github"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </section>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   </body>
