@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-180671752-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-180671752-1");
+    </script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator | Basic</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <!--Calculator Body-->
+      <div class="calculator">
+        <!--Input Field-->
+        <input type="text" name="numbers" class="display" disabled />
+        <!--Number Keys-->
+        <div class="keys">
+          <div class="row">
+            <button value="7">7</button>
+            <button value="8">8</button>
+            <button value="9">9</button>
+            <button value="+" class="operator">+</button>
+          </div>
+          <div class="row">
+            <button value="4">4</button>
+            <button value="5">5</button>
+            <button value="6">6</button>
+            <button value="-" class="operator">-</button>
+          </div>
+          <div class="row">
+            <button value="1">1</button>
+            <button value="2">2</button>
+            <button value="3">3</button>
+            <button value="*" class="operator">*</button>
+          </div>
+          <div class="row">
+            <button value="C" class="operator">C</button>
+            <button value="0">0</button>
+            <button value="/" class="operator">/</button>
+            <button value="=" class="operator">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p>
+      Made By
+      <a href="http://www.github.com/Somanyu">Somanyu &#10084;&#65039;</a>
+    </p>
+    <script src="./script.js"></script>
+  </body>
+</html>
