@@ -542,3 +542,162 @@ body {
   background-color: #055ada;
   color: #fff;
 }
+
+/*
+*------------------------------------
+*             BUTTON
+*------------------------------------
+*/
+button {
+  outline: none;
+}
+
+.custom-btn {
+  font-size: 15px;
+  width: 130px;
+  height: 40px;
+  padding: 10px 25px;
+  border: 2px solid #fff;
+  font-family: 'Questrial', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.btn-6 {
+  background: #ffffff;
+ color: #000000;
+ line-height: 42px;
+ padding: 0;
+ border: none;
+}
+.btn-6 span {
+ position: relative;
+ display: block;
+ width: 100%;
+ height: 100%;
+}
+.btn-6:before,
+.btn-6:after {
+ position: absolute;
+ content: "";
+ height: 0%;
+ width: 2px;
+ background: #ffffff;
+}
+.btn-6:before {
+ right: 0;
+ top: 0;
+ transition: all 500ms ease;
+}
+.btn-6:after {
+ left: 0;
+ bottom: 0;
+ transition: all 500ms ease;
+}
+.btn-6:hover{
+ color: #ffffff;
+ background: transparent;
+}
+.btn-6:hover:before {
+ transition: all 500ms ease;
+ height: 100%;
+}
+.btn-6:hover:after {
+ transition: all 500ms ease;
+ height: 100%;
+}
+.btn-6 span:before,
+.btn-6 span:after {
+ position: absolute;
+ content: "";
+ background: #ffffff;
+}
+.btn-6 span:before {
+ left: 0;
+ top: 0;
+ width: 0%;
+ height: 2px;
+ transition: all 500ms ease;
+}
+.btn-6 span:after {
+ right: 0;
+ bottom: 0;
+ width: 0%;
+ height: 2px;
+ transition: all 500ms ease;
+}
+.btn-6 span:hover:before {
+ width: 100%;
+}
+.btn-6 span:hover:after {
+ width: 100%;
+}
+
+/*
+*---------------------------
+*       FOOTER
+*---------------------------
+*/
+.footer-basic {
+  padding: 40px 0;
+  background-color: #ffffff;
+  color: #4b4c4d;
+}
+
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer-basic li {
+  padding: 0 10px;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
