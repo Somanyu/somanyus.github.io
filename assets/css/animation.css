@@ -43,8 +43,8 @@
 *----------------------------
 */
 .fade-in-image {
-    -webkit-animation: fade-in 2.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-    animation: fade-in 2.8s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    -webkit-animation: fade-in 2.8s cubic-bezier(0.39, 0.575, 0.565, 1) 1s both;
+    animation: fade-in 2.8s cubic-bezier(0.39, 0.575, 0.565, 1) 1s both;
   }
   
   @-webkit-keyframes fade-in {
@@ -71,8 +71,8 @@
 */
 .swing-in-top-fwd {
     -webkit-animation: swing-in-top-fwd 1.6s
-      cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
-    animation: swing-in-top-fwd 1.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+      cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s both;
+    animation: swing-in-top-fwd 1.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s both;
   }
   
   @-webkit-keyframes swing-in-top-fwd {
