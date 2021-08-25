@@ -37,7 +37,14 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
 
-  <body style="color: #000000">
+  <body onload="loadsite()" style="color: #000000">
+    <script>
+      var load = document.getElementById('loading');
+      function loadsite() {
+        load.style.display = 'none';
+      }
+    </script>
+    <div id="loading"></div>
     <nav
       class="fade-in navbar navbar-light navbar-expand-md"
       style="
