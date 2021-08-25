@@ -68,3 +68,14 @@ const observer2 = new IntersectionObserver(entries => {
 });
 
 observer2.observe(document.querySelector('.contactme'));
+
+/*
+*-------------------------
+*    LOADING ANIMATION
+*-------------------------
+*/
+
+var load = document.getElementById('loading');
+function loadfun() {
+    load.style.display = 'none';
+}
